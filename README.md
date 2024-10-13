@@ -8,7 +8,8 @@
 
 - [About](#about)
 - [Features](#features)
-- [Live Demo:](#live-demo)
+- [Live Demo](#live-demo)
+- [Screenshots](#screenshots)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installing Dependencies](#installing-dependencies)
@@ -34,7 +35,7 @@
 - **Block Alerts:** Allows the addition of tip, note, and caution alerts in your documentation.
 
 
-## Live Demo:
+## Live Demo
 
 - Here's the live demo link: https://openlabx.com/readmex/
 
