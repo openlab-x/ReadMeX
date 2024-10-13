@@ -39,6 +39,9 @@
 
 - Here's the live demo link: https://openlabx.com/readmex/
 
+## Screenshots
+
+![GitHub Stats](screenshots/1.png)
 
 ## Getting Started
 To get started with **ReadMeX**, follow these steps to run the application on your local machine.
