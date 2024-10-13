@@ -137,9 +137,7 @@ This will start the Flask application and allow you to access the editor on `htt
 - **Flask:** The core of the web application.
 - **Flask-SocketIO:** For real-time communication when running on localhost.
 - **markdown2:** To convert markdown to HTML with added features such as table support.
-- **Bold**
-- **Bold**
-- **Bold**
+
 
 ### Frontend
 
@@ -147,8 +145,7 @@ This will start the Flask application and allow you to access the editor on `htt
 - **Bootstrap 5.x** for components and responsive design.
 - **JavaScript and AJAX** for asynchronous updates.
 - **Socket.IO** for real-time markdown updates on localhost or public.
-- **Bold**
-- **Bold**
+
 
 ## Contributing
  We welcome contributions! Here's how you can help:
