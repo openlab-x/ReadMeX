@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadMeX - README.md Builder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navoo">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://openlabx.com/ReadMeX"><img src="static/images/logo_v1 - s.png" alt="Logo" height="40"> ReadMeX - README.md Builder</a>
+
+
+
+                <div class="dropdown">
+                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" >
+                      More
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                      <li><a class="dropdown-item" href="#">View Source code on GitHub</a></li>
+                      <li><a class="dropdown-item" href="#">Report an Issue</a></li>
+                      <li><a class="dropdown-item" href="#">Subscribe to OpenLabX newsletter</a></li>
+                      <li><a class="dropdown-item" href="#">Contact OpenLabX</a></li>
+                      <li><a class="dropdown-item" href="#">Join us on social media</a></li>
+                    </ul>
+                  </div>
+            </div>
+
+            
+        </nav>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script> 
+        
+        <div class="container-fluid">
+            <!-- Sidebar for navigation -->
+            <div class="sidebar">
+                <h5 data-target="table-of-contents-list" class="active">Table Of Contents</h5>
+                <h5 data-target="headings-list">Headings</h5>
+                <h5 data-target="texts-list">Texts</h5>
+                <h5 data-target="tables-list">Tables</h5>
+                <h5 data-target="lists-list">Lists</h5>
+                <h5 data-target="links-list">Links</h5>
+                <h5 data-target="images-list">Images</h5>
+                <h5 data-target="space-list">Space</h5>
+                <h5 data-target="code-blocks-list">Code Blocks</h5>
+                <h5 data-target="collapsed-sections-list">Collapsed Sections</h5>
+                <h5 data-target="emojis-list">Emojis</h5>
+                <h5 data-target="mathematical-expressions-list" disabled>Mathematical Expressions<sup class="soon">soon!</sup></h5>
+                <h5 data-target="diagrams-list" disabled>Diagrams<sup class="soon">soon!</sup></h5>
+            </div>
+
+            <!-- Drag elements and editor section -->
+            <div class="content-area">
+                <div class="drag-elements">
+                    <div class="content" id="content-area">
+
+                        <!-- Default content for Headings -->
+                        <div id="table-of-contents-list" class="category-list">
+                            <div class="element draggable" draggable="true" data-markdown="
+- [About](#about)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Platforms Tested](#platforms-tested)
+- [Live Demo and Examples:](#live-demo-and-examples)
+  - [Customization](#customization)
+  - [Examples URLs](#examples-urls)
+- [Usage](#usage)
+- [Technology Stack](#technology-stack)
+- [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
+- [Bug Reporting](#bug-reporting)
+- [License](#license)
+- [Code of Conduct](#code-of-conduct)
+- [Contact](#contact)">Table of contents only</div>
+                            <div class="element draggable" draggable="true" data-markdown="
+## About
+
+- [About](#about)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Platforms Tested](#platforms-tested)
+- [Live Demo and Examples:](#live-demo-and-examples)
+  - [Customization](#customization)
+  - [Examples URLs](#examples-urls)
+- [Usage](#usage)
+- [Technology Stack](#technology-stack)
+- [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
+- [Bug Reporting](#bug-reporting)
+- [License](#license)
+- [Code of Conduct](#code-of-conduct)
+- [Contact](#contact)
+
+## Features
+
+## Getting Started
+
+## Platforms Tested
+
+## Live Demo and Examples:
+
+### Customization
+
+### Examples URLs
+
+## Usage
+
+## Technology Stack
+
+## Contributing
+
+## Acknowledgments
+
+## Bug Reporting
+
+## License
+
+## Code of conduct
+
+## Contact
+
+">Table of contents simple</div>
+                            <div class="element draggable" draggable="true" data-markdown="
+## About
+
+- [About](#about)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Platforms Tested](#platforms-tested)
+- [Live Demo and Examples:](#live-demo-and-examples)
+  - [Customization](#customization)
+  - [Examples URLs](#examples-urls)
+- [Usage](#usage)
+- [Technology Stack](#technology-stack)
+- [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
+- [Bug Reporting](#bug-reporting)
+- [License](#license)
+- [Code of Conduct](#code-of-conduct)
+- [Contact](#contact)
+
+## Features
+
+## Getting Started
+
+## Platforms Tested
+- [x] Web: Fully functional on major browsers like Chrome, Firefox, and Edge.
+- [x] Github Readme-md.
+- [x] Local Readme-md.
+- [x] Visual studio code readme preview.
+- [x] As an external image for any webstie.
+- [x] As an Iframe.
+
+## Live Demo and Examples:
+
+### Customization
+
+| Parameter | Description |
+| --- | --- |
+| bgColor | Background color (e.g., #ffffff) |
+| textColor | Text color (e.g., #000000) |
+| cardColor | Card background color (e.g., #e1e1e1) |
+| chartColor | Color for chart bars (e.g., #007bff) |
+| chartTextColor | Text color for chart labels (e.g., black) |
+
+### Examples URLs
+
+## Usage
+
+## Technology Stack
+
+## Contributing
+ We welcome contributions! Here's how you can help:
+ 
+  1. Give the project a STAR.
+  2. Follow us on Github.
+  3. Follow us on Social Media.
+  4. Fork the repository.
+  5. Create a new branch for your feature or bug fix.
+  6. Make your changes.
+  7. Submit a pull request.
+  8. Please make sure to update tests as appropriate.
+
+
+## Acknowledgments
+- Python: The programming language used for the backend of this project.
+- Pillow: For enabling image manipulation and rendering in Python.
+- GitHub API: For providing the data used in generating user stats.
+- Stats are updated every 24 hours automatically to prevent excessive API requests and to ensure that the service remains efficient and avoids hitting rate limits.
+- All Contributors: Thanks to everyone who contributed to the project.
+- OpenLabX Team: Special thanks to the team for developing and maintaining the project.
+
+## Bug Reporting
+- If you find a bug in this project, please do not hesistate to reach out to our team
+- If you are feeling helpful, please consider fixing the bug and making a pull request
+- We give our greatest thanks to any people who report or fix bugs in this project
+
+
+## License
+This project is licensed under the [MIT license](LICENSE).
+
+## Code of conduct
+
+We are committed to fostering an open and welcoming environment. All participants in this project are expected to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md), which outlines our expectations for respectful behavior and the steps for reporting unacceptable conduct.
+
+## Contact
+
+In pursuit of innovation,  
+**OpenLabX Team**
+
+- **Website**: [https://openlabx.com](https://openlabx.com)
+- **Email**: contact@openlabx.com
+
+
+
+">Table of contents pro</div>
+                           
+                        </div>
+
+
+                        <!-- Default content for Headings -->
+                        <div id="headings-list" class="category-list d-none">
+                            <div class="element draggable" draggable="true" data-markdown="# Header 1">Heading level 1</div>
+                            <div class="element draggable" draggable="true" data-markdown="## Header 2">Heading level 2</div>
+                            <div class="element draggable" draggable="true" data-markdown="### Header 3">Heading level 3</div>
+                            <div class="element draggable" draggable="true" data-markdown="#### Header 4">Heading level 4</div>
+                            <div class="element draggable" draggable="true" data-markdown="##### Header 5">Heading level 5</div>
+                        </div>
+                
+                        <!-- New content for Texts -->
+                        <div id="texts-list" class="category-list d-none">
+                            <div class="element draggable" draggable="true" data-markdown="**Bold**">Bold</div>
+                            <div class="element draggable" draggable="true" data-markdown="_Italic_">Italic</div>
+                            <div class="element draggable" draggable="true" data-markdown="~~Strikethrough~~">Strikethrough</div>
+                            <div class="element draggable" draggable="true" data-markdown="**_Bold and Italic_**">Bold & Italic</div>
+                            <div class="element draggable" draggable="true" data-markdown="<sub>Subscript</sub>">Subscript</div>
+                            <div class="element draggable" draggable="true" data-markdown="<sup>Superscript</sup>">Superscript</div>
+                        </div>
+
+                        <div id="tables-list" class="category-list d-none">
+                            <div class="element draggable" draggable="true" data-markdown="
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+">Normal Table</div>
+                            <div class="element draggable" draggable="true" data-markdown="
+| Column 1 | Column 2 | Column 3 |
+| :---: | :---: | :---: |
+| Row 1 | Data 1 | Data 2 |
+| Row 2 | Data 1 | Data 2 |
+">Centered Table</div>
+                        </div>
+
+
+                                                <!-- Default content for lists -->
+                        <div id="lists-list" class="category-list d-none">
+                            <div class="element draggable" draggable="true" data-markdown="
+1. First item.
+2. Second item.
+">Ordered List</div>
+                            <div class="element draggable" draggable="true" data-markdown="
+- First item.
+- Second item.">Unordered List</div>
+
+
+<div class="element draggable" draggable="true" data-markdown="
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete 🎉">Task lists</div>
+
+                        </div>
+
+                        
+
+
+                                                <!-- Default content for links -->
+                        <div id="links-list" class="category-list d-none">
+                            <div class="element draggable" draggable="true" data-markdown="
+This README.md built using [ReadMeX](https://github.com/openlab-x/ReadMeX).
+">Normal link</div>
+                            <div class="element draggable" draggable="true" data-markdown="
+# Example headings
+
+## Sample Section
+
+## This'll  be a _Helpful_ Section About the Greek Letter Θ!
+A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
+
+## This heading is not unique in the file
+
+TEXT 1
+
+## This heading is not unique in the file
+
+TEXT 2
+
+# Links to the example headings above
+
+Link to the sample section: [Link Text](#sample-section).
+
+Link to the helpful section: [Link Text](#thisll--be-a-helpful-section-about-the-greek-letter-Θ).
+
+Link to the first non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file).
+
+Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file-1).">Section link example</div>
+                            
+
+                            <div class="element draggable" draggable="true" data-markdown="
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
+This project is licensed under the [MIT license](LICENSE).
+">Relative link</div>      
+                        </div>
+
+
+
+
+                        <!-- Default content for images -->
+                        <div id="images-list" class="category-list d-none">
+                            <div class="element draggable" draggable="true" data-markdown="
+![Screenshot](https://myoctocat.com/assets/images/base-octocat.svg)
+">External Image</div>
+                            <div class="element draggable" draggable="true" data-markdown="
+![Logo](logo/logo_v1.png)
+">Internal Image</div>
+                            <div class="element draggable" draggable="true" data-markdown="
+<img src='https://myoctocat.com/assets/images/base-octocat.svg' alt='drawing' height='200' width='200'/>
+">Custom Size</div>
+                        </div>
+
+
+                                                <!-- Default content for space -->
+                        <div id="space-list" class="category-list d-none">
+                            <div class="element draggable" draggable="true" data-markdown="
+">NewLine (Empty)</div>
+                            <div class="element draggable" draggable="true" data-markdown="
+<br>
+">New Line `br` block</div>
+                        </div>
+
+                        <!-- Default content for Headings -->
+                        <div id="code-blocks-list" class="category-list d-none">
+                            <div class="element draggable" draggable="true" data-markdown="
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new('Hello World!')
+puts markdown.to_html
+```
+">Code Block</div>
+
+                        </div>
+
+
+
+
+                                                <!-- Default content for collapsed -->
+                        <div id="collapsed-sections-list" class="category-list d-none">
+                            <div class="element draggable" draggable="true" data-markdown="
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts 'Hello World'
+```
+
+</details>">Collapsed Section</div>
+                        </div>
+
+                        <div id="emojis-list" class="category-list d-none">
+                            <div class="element draggable" draggable="true" data-markdown="😀">😀</div>
+                            <div class="element draggable" draggable="true" data-markdown="😃">😃</div>
+                            <div class="element draggable" draggable="true" data-markdown="😄">😄</div>
+                            <div class="element draggable" draggable="true" data-markdown="😁">😁</div>
+                            <div class="element draggable" draggable="true" data-markdown="😆">😆</div>
+                            <div class="element draggable" draggable="true" data-markdown="😅">😅</div>
+                            <div class="element draggable" draggable="true" data-markdown="😂">😂</div>
+                            <div class="element draggable" draggable="true" data-markdown="🤣">🤣</div>
+                            <div class="element draggable" draggable="true" data-markdown="😊">😊</div>
+                            <div class="element draggable" draggable="true" data-markdown="😇">😇</div>
+                            <div class="element draggable" draggable="true" data-markdown="🙂">🙂</div>
+                            <div class="element draggable" draggable="true" data-markdown="🙃">🙃</div>
+                            <div class="element draggable" draggable="true" data-markdown="😉">😉</div>
+                            <div class="element draggable" draggable="true" data-markdown="😍">😍</div>
+                            <div class="element draggable" draggable="true" data-markdown="😘">😘</div>
+                            <div class="element draggable" draggable="true" data-markdown="😗">😗</div>
+                            <div class="element draggable" draggable="true" data-markdown="😚">😚</div>
+                            <div class="element draggable" draggable="true" data-markdown="😋">😋</div>
+                            <div class="element draggable" draggable="true" data-markdown="😜">😜</div>
+                            <div class="element draggable" draggable="true" data-markdown="😝">😝</div>
+                            <div class="element draggable" draggable="true" data-markdown="🤗">🤗</div>
+                            <div class="element draggable" draggable="true" data-markdown="🤩">🤩</div>
+                            <div class="element draggable" draggable="true" data-markdown="🥳">🥳</div>
+                            <div class="element draggable" draggable="true" data-markdown="😎">😎</div>
+                            <div class="element draggable" draggable="true" data-markdown="🤓">🤓</div>
+                            <div class="element draggable" draggable="true" data-markdown="🧐">🧐</div>
+                            <div class="element draggable" draggable="true" data-markdown="😏">😏</div>
+                            <div class="element draggable" draggable="true" data-markdown="😌">😌</div>
+                            <div class="element draggable" draggable="true" data-markdown="😔">😔</div>
+                            <div class="element draggable" draggable="true" data-markdown="😢">😢</div>
+                            <div class="element draggable" draggable="true" data-markdown="😭">😭</div>
+                            <div class="element draggable" draggable="true" data-markdown="😤">😤</div>
+                            <div class="element draggable" draggable="true" data-markdown="😠">😠</div>
+                            <div class="element draggable" draggable="true" data-markdown="😡">😡</div>
+                            <div class="element draggable" draggable="true" data-markdown="🤬">🤬</div>
+                            <div class="element draggable" draggable="true" data-markdown="😱">😱</div>
+                            <div class="element draggable" draggable="true" data-markdown="😨">😨</div>
+                            <div class="element draggable" draggable="true" data-markdown="😰">😰</div>
+                            <div class="element draggable" draggable="true" data-markdown="😥">😥</div>
+                            <div class="element draggable" draggable="true" data-markdown="😓">😓</div>
+                            <div class="element draggable" draggable="true" data-markdown="🤯">🤯</div>
+                            <div class="element draggable" draggable="true" data-markdown="😵">😵</div>
+                            <div class="element draggable" draggable="true" data-markdown="🤒">🤒</div>
+                            <div class="element draggable" draggable="true" data-markdown="🤕">🤕</div>
+                            <div class="element draggable" draggable="true" data-markdown="🤢">🤢</div>
+                            <div class="element draggable" draggable="true" data-markdown="🤮">🤮</div>
+                            <div class="element draggable" draggable="true" data-markdown="🤧">🤧</div>
+                            <div class="element draggable" draggable="true" data-markdown="🥵">🥵</div>
+                            <div class="element draggable" draggable="true" data-markdown="🥶">🥶</div>
+                            <div class="element draggable" draggable="true" data-markdown="🤠">🤠</div>
+                            <div class="element draggable" draggable="true" data-markdown="😇">😇</div>
+                            <div class="element draggable" draggable="true" data-markdown="❤️">❤️</div>
+                            <div class="element draggable" draggable="true" data-markdown="💔">💔</div>
+                            <div class="element draggable" draggable="true" data-markdown="🧡">🧡</div>
+                            <div class="element draggable" draggable="true" data-markdown="💛">💛</div>
+                            <div class="element draggable" draggable="true" data-markdown="💚">💚</div>
+                            <div class="element draggable" draggable="true" data-markdown="💙">💙</div>
+                            <div class="element draggable" draggable="true" data-markdown="💜">💜</div>
+                            <div class="element draggable" draggable="true" data-markdown="🖤">🖤</div>
+                            <div class="element draggable" draggable="true" data-markdown="💖">💖</div>
+                            <div class="element draggable" draggable="true" data-markdown="💫">💫</div>
+                            <div class="element draggable" draggable="true" data-markdown="✨">✨</div>
+                            <div class="element draggable" draggable="true" data-markdown="🔥">🔥</div>
+                            <div class="element draggable" draggable="true" data-markdown="🎉">🎉</div>
+                            <div class="element draggable" draggable="true" data-markdown="💥">💥</div>
+                            <div class="element draggable" draggable="true" data-markdown="🌟">🌟</div>
+                            <div class="element draggable" draggable="true" data-markdown="🎶">🎶</div>
+                            <div class="element draggable" draggable="true" data-markdown="🎵">🎵</div>
+                            <div class="element draggable" draggable="true" data-markdown="🥇">🥇</div>
+                            <div class="element draggable" draggable="true" data-markdown="🏅">🏅</div>
+                            <div class="element draggable" draggable="true" data-markdown="🚀">🚀</div>
+                            <div class="element draggable" draggable="true" data-markdown="💡">💡</div>
+                            <div class="element draggable" draggable="true" data-markdown="📚">📚</div>
+                            <div class="element draggable" draggable="true" data-markdown="✏️">✏️</div>
+                            <div class="element draggable" draggable="true" data-markdown="📝">📝</div>
+                        </div>
+                        
+
+
+
+
+                    </div>
+                </div>
+
+
+
+                <!-- Editor and Live Preview Section -->
+                <div class="editor-container">
+                    <div class="editor-section"> 
+                        <h6><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#007bff" class="bi bi-exclamation-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                            <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z"/>
+                          </svg> README.md 
+                          <svg id="copy-icon" onclick="copyToClipboard()" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16" style="cursor: pointer;">
+                            <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/>
+                        </svg>
+                        </h6>
+                          
+                        <textarea id="markdown-editor" placeholder="Write your markdown here..."></textarea>
+                        <div class="toast-message" id="copy-toast">Markdown content copied!</div>
+                    </div>
+                    <div class="editor-section">
+                        <h6><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-file-earmark-play" viewBox="0 0 16 16">
+                            <path d="M6 6.883v4.234a.5.5 0 0 0 .757.429l3.528-2.117a.5.5 0 0 0 0-.858L6.757 6.454a.5.5 0 0 0-.757.43z"/>
+                            <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                          </svg> Live Preview README.md</h6>
+                        <div id="live-preview"></div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div> 
+    </div> 
+    <!-- Include SocketIO for real-time communication with Flask -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./static/app.js"></script>
+    <script src="./static/categories.js"></script>
+</body>
+<div class="footer-custom d-flex justify-content-center align-items-center flex-grow-1" id="site-footer">
+    <span class="badge bg-info mx-2">ReadMeX v1.0.0</span>
+<span>Made With 🧡 And Developed By © <a href="https://openlabx.com">OpenLabX</a> 2024 </span>
+
+</div>
+</html>
