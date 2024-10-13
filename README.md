@@ -34,9 +34,9 @@
 - **Block Alerts:** Allows the addition of tip, note, and caution alerts in your documentation.
 
 
-## Live Demo and Examples:
+## Live Demo:
 
-- Here's the live demo link: 
+- Here's the live demo link: https://openlabx.com/readmex/
 
 
 ## Getting Started
@@ -165,9 +165,6 @@ This will start the Flask application and allow you to access the editor on `htt
 
 ## Acknowledgments
 - Python: The programming language used for the backend of this project.
-- Pillow: For enabling image manipulation and rendering in Python.
-- GitHub API: For providing the data used in generating user stats.
-- Stats are updated every 24 hours automatically to prevent excessive API requests and to ensure that the service remains efficient and avoids hitting rate limits.
 - All Contributors: Thanks to everyone who contributed to the project.
 - OpenLabX Team: Special thanks to the team for developing and maintaining the project.
 
@@ -205,3 +202,7 @@ In pursuit of innovation,
 <a href="https://www.youtube.com/@OpenLabX" target="_blank"><strong>YouTube</strong></a> |
 <a href="https://github.com/openlab-x" target="_blank"><strong>GitHub</strong></a> |
 </div>
+
+<br>
+
+- [This README.md Made With ReadMeX](https://github.com/openlab-x/ReadMeX)
