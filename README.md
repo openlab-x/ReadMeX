@@ -1,9 +1,7 @@
-# ReadMeX - README.md Builder ![GitHubViewsCounter](https://openlabx.com/githubviewscounter/api/gitvcr.php?username=openlab-x&repository=ReadMeX&theme=dark) [<img alt="Made With GitHubViewsCounter" src="https://openlabx.com/githubviewscounter/api/footer_image.php?theme=light" />](https://github.com/openlab-x/GitHubViewsCounter)
+# ReadMeX - README.md Builder 
 
 ![GitHub Stats](logo/logo_v1.png)
 
-![GitHubViewsCounter](https://openlabx.com/githubviewscounter/api/gitvcr.php?username=openlab-x&repository=ReadMeX&theme=light)
-  - [Made With GitHubViewsCounter](https://github.com/openlab-x/GitHubViewsCounter)
 
 ## About
 
