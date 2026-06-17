@@ -7,6 +7,7 @@
 
 **ReadMeX** is a web-based markdown editor designed to help you create well-structured and professional-looking `README.md` files for your projects. It supports features like live preview, drag-and-drop markdown elements, and code syntax highlighting, making the process of creating a `README.md` easier and more efficient.
 
+## Table of Contents
 - [About](#about)
 - [Features](#features)
 - [Live Demo](#live-demo)
